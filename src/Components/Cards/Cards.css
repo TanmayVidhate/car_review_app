@@ -1,0 +1,25 @@
+.cards {
+    width: 22vw;
+    height: 60vh;
+    border: 1px solid rgb(10, 10, 10);
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 1.5vw;
+    box-shadow:2px 2px 8px 4px gray;
+}
+
+.cardimg{
+    width: 100%;
+    height:25vh;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+.card_title{
+    font-size: 1.7vw;
+    font-weight:500;
+}
+
+.card_desc{
+    font-size: 1.2vw;
+}
