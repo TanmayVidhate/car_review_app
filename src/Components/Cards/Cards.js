@@ -7,6 +7,9 @@ const Cards=({imgurl,name,desc})=>{
                 <img src={imgurl} alt="carimage" className="cardimg"/>
                 <p className="card_title">{name}</p>
                 <p className="card_desc">{desc}</p>
+                <div className="btn-holder">
+                <button className="btn">Read More</button>
+                </div>
             </div>
         </>
     )
