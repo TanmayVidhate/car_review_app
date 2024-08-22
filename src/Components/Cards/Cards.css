@@ -16,10 +16,25 @@
 }
 
 .card_title{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     font-weight:500;
 }
 
 .card_desc{
     font-size: 1.2vw;
+}
+
+.btn{
+    padding: 0.7vw;
+    margin: 1vw;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FFBE98;
+    
+}
+
+.btn-holder{
+    /* border: 1px solid red; */
+    text-align: center;
 }
