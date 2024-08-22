@@ -57,9 +57,8 @@ const Home = () => {
         <>
             <p className="heading">Car Review </p>
             <div className="card_container">
-
                 {
-                    cars.map((carlist)=>{
+                    cars.map((carlist) => {
                         return<Cards
                         name={carlist.name}
                         desc={carlist.desc}
@@ -67,7 +66,6 @@ const Home = () => {
                         />
                     })
                 }
-                
             </div>
         </>
     )
